@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	util "calculator/util"
+	util "calculator-testify/util"
 )
 
 func DivisionOfTwoRationalNumber(dividentFloat32, divisorFloat32 float32) (quotient float32, err error) {

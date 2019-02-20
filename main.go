@@ -6,12 +6,12 @@ import (
 	"os"
 	"strconv"
 
-	add "calculator/add"
-	div "calculator/div"
-	mul "calculator/mul"
-	rdm "calculator/random"
-	sub "calculator/sub"
-	util "calculator/util"
+	add "calculator-testify/add"
+	div "calculator-testify/div"
+	mul "calculator-testify/mul"
+	rdm "calculator-testify/random"
+	sub "calculator-testify/sub"
+	util "calculator-testify/util"
 )
 
 func main() {

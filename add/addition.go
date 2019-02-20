@@ -1,7 +1,7 @@
 package add
 
 import (
-	util "calculator/util"
+	util "calculator-testify/util"
 	"fmt"
 )
 

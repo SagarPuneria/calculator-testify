@@ -30,11 +30,11 @@ func Test_util_suite(t *testing.T) {
 //SetupSuite will run before the tests in the suite are run
 func (suite *utilTestSuite) SetupTest() {
 	suite.testFuncNameSuccessCases.expectedFunctionNameString =
-		"calculator/util.(*utilTestSuite).Test_function_FunctionName_should_return_name_of_calling_function_on_success_case"
+		"calculator-testify/util.(*utilTestSuite).Test_function_FunctionName_should_return_name_of_calling_function_on_success_case"
 	suite.testFuncNameFailureCases.expectedFunctionNameString =
-		"calculator/util.(*utilTestSuite).Test_function_FunctionName_should_return_name_of_calling_function_on_success_case"
-	suite.testFuncNameSuccessCases.expectedExceptionDetailExcludeLineNumber = "calculator/util.generateException"
-	suite.testFuncNameFailureCases.expectedExceptionDetailExcludeLineNumber = "calculator/util"
+		"calculator-testify/util.(*utilTestSuite).Test_function_FunctionName_should_return_name_of_calling_function_on_success_case"
+	suite.testFuncNameSuccessCases.expectedExceptionDetailExcludeLineNumber = "calculator-testify/util.generateException"
+	suite.testFuncNameFailureCases.expectedExceptionDetailExcludeLineNumber = "calculator-testify/util"
 }
 
 // FunctionName - should return name of calling function

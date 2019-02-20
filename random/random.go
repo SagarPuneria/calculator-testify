@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	util "calculator/util"
+	util "calculator-testify/util"
 )
 
 type random interface {
